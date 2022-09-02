@@ -10,6 +10,7 @@
 ### 2. Clone the repo
 
 ​	After forking the main repo, go to the forked repo available under your Github repos. Clone this repo into your local system. Click the button shown in the image and then go to the desired repository where you want to locally setup this project. Use the given command to clone the repo.
+
 ![](./images/setup-guide/2.jpeg)
 ```
 git clone <repo-link>
@@ -60,11 +61,13 @@ git push -u origin <branch-name>
 ### 6. Open a Pull Request
 
 After the feature development is completed, you can open a pull request to the main remote repository. You can open a pull request by clicking on this button. 
+
 ![](./images/setup-guide/4.jpeg)
 
 ### IMPORTANT
 
 Before making changes to your local code always make sure that the code available to you locally is the latest code. To update your repo, you need to first update your forked repo which can be done by clicking the following button. 
+
 ![](./images/setup-guide/3.jpeg)
 After updating your forked repo, you need to run the following command in order to update your local repo with your forked remote repo.
 ```
