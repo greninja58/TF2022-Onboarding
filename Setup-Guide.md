@@ -24,7 +24,7 @@ npm install
 ```
 npm run dev
 ```
-To contribute to the project, you can checkout the CONTRIBUTING.md file (https://github.com/bhavesh-chaudhari/TF2022/blob/main/CONTRIBUTING.md) on the TF2022 Project Repo. The next set of steps are just an elloborated version of the same. 
+To contribute to the project, you can checkout the CONTRIBUTING.md file (https://github.com/bhavesh-chaudhari/TF2022/blob/main/CONTRIBUTING.md) on the TF2022 Project Repo. The next set of steps are just an elaborated version of the same. 
 
 ### 4. Create your feature branch
 
@@ -39,7 +39,7 @@ git checkout -b <branch-name>
 ​	After you are done making the changes in your branch, you should commit the changes. First you need to add all the changes for the commit. Use the following command for that.
 
 ```
-git add *
+git add .
 ```
 
 To check the status of the git repository, use the following command.
