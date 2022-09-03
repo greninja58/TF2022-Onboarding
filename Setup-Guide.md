@@ -2,27 +2,29 @@
 
 
 
-### 1. Fork the repo
+### 1. Clone the repo
 
-​	Go to the repo and click on the fork button available at the top right corner of the repo page.
-![](./images/setup-guide/1.jpeg)
-
-### 2. Clone the repo
-
-​	After forking the main repo, go to the forked repo available under your Github repos. Clone this repo into your local system. Click the button shown in the image and then go to the desired repository where you want to locally setup this project. Use the given command to clone the repo.
+​	Visit the TF2022 project repo link given to you along with this guide. Clone this repo into your local system. Click the button shown in the image and then go to the desired repository where you want to locally setup this project. Use the given command to clone the repo.
 
 ![](./images/setup-guide/2.jpeg)
 ```
-git clone <repo-link>
+git clone https://github.com/bhavesh-chaudhari/TF2022
 ```
 
-### 3. Install all the required dependency
+### 2. Install all the required dependency
 
-​	In order to install all the required dependency, you will need nodejs installed on your system. If you already have nodejs installed in your system, you can move ahead else you can install nodejs for your respective system (follow any youtube tutorial). To install all the required dependencies, you simply have to install the given command.
+​	In order to install all the required dependency, you will need nodejs installed on your system. If you already have nodejs installed in your system, you can move ahead else you can install nodejs for your respective system (follow any youtube tutorial). To install all the required dependencies, you simply have to run the given command.
 
 ```
 npm install
 ```
+
+### 3. Run the App
+​	After you are done with installing the dependencies you can execute the given command to run the app in your browser. If the app starts running on localhost:3000, you have successfully completed the entire setup process on your local machine and you are ready to start contributing to the project. 
+```
+npm run dev
+```
+To contribute to the project, you can checkout the CONTRIBUTING.md file (https://github.com/bhavesh-chaudhari/TF2022/blob/main/CONTRIBUTING.md) on the TF2022 Project Repo. The next set of steps are just an elloborated version of the same. 
 
 ### 4. Create your feature branch
 
@@ -52,7 +54,7 @@ After adding the changes and reviewing them, you can commit the changes by using
 git commit -m <write commit message inside quotes>
 ```
 
-To push all the changes to your forked remote repository, use the following command.
+To push all the changes to the remote repository, use the following command.
 
 ```
 git push -u origin <branch-name>
@@ -66,10 +68,7 @@ After the feature development is completed, you can open a pull request to the m
 
 ### IMPORTANT
 
-Before making changes to your local code always make sure that the code available to you locally is the latest code. To update your repo, you need to first update your forked repo which can be done by clicking the following button. 
-
-![](./images/setup-guide/3.jpeg)
-After updating your forked repo, you need to run the following command in order to update your local repo with your forked remote repo.
+Before making changes to your local code always make sure that the code available to you locally is the latest code. You need to run the following command in order to update your local repo with the remote repo.
 ```
 git pull origin main
 ```
