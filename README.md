@@ -7,4 +7,4 @@
 5. Kashyap Rishi- 2nd year cse branch
 6. Adhiraj Singh - Hello Developers
 7. Kumar Rishav - From 2nd year ECE Department.
-
+8. Sanket Teli-2nd year ECE branch
